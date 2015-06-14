@@ -37,10 +37,18 @@
           </div>
           <button type="submit" class="btn btn-default" ng-click="textSearch()">Submit</button>
         </form>
-        <div ml-user username="model.user.name" password="model.user.password" authenticated="model.user.authenticated" login="login(username, password)" logout="logout()" loginerror="model.user.loginError"/>
+        <div ml-user username="model.user.name" password="model.user.password" authenticated="model.user.authenticated" login="login(username, password)" logout="logout()" loginerror="model.user.loginError">
+	  <button
+             class="navbar-right"
+             href=""
+             ng-click="alert('clicked!')"
+             >Log In
+          </button>
+	</div>
       </div><!-- /.navbar-collapse -->
     </nav>
     <!-- Add your site or application content here -->
+    <p>my content will go here...</p>
     <div ng-show="!model.user.authenticated">Please log in to see your content</div>
     <div class="container" ng-view=""></div>
 
