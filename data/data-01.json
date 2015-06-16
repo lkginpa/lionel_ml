@@ -1,120 +1,122 @@
 {
-  "id": 0,
-  "name": "Gamma Gen",
-  "address1": "101 S. First",
-  "address2": "Suite 100",
-  "city": "Philadelphia",
-  "state": "PA",
-  "country": "USA",
-  "postalCode": "19020",
-  "active": true,
-  "studies":
-  [
-    {
-      "studyName": "",
-      "protocol": "GammaGen211",
-      "active": true,
-      "phase": 2,
-      "startDate": "20140101",
-      "endDate": "",
-      "researchSites":
-      [
-        {
-          "siteID": "0001",
-          "name": "Children's Hospital of Philadelphia",
-          "address1": "101 S. First St",
-          "address2": "",
-          "city": "Philadelphia",
-          "state": "PA",
-          "postalCode": "19047",
-          "principleInvestigator":
+  "sponsor":
+  {
+    "id": 0,
+    "name": "Gamma Gen",
+    "address1": "101 S. First",
+    "address2": "Suite 100",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "USA",
+    "postalCode": "19020",
+    "active": true,
+    "studies":
+    [
+      {
+        "studyName": "",
+        "protocol": "GammaGen211",
+        "active": true,
+        "phase": 2,
+        "startDate": "20140101",
+        "endDate": "",
+        "researchSites":
+        [
+          {
+            "siteID": "0001",
+            "name": "Children's Hospital of Philadelphia",
+            "address1": "101 S. First St",
+            "address2": "",
+            "city": "Philadelphia",
+            "state": "PA",
+            "postalCode": "19047",
+            "principleInvestigator":
             {
               "name": "John Smith",
               "npiNumber": "US12345678"
             }
-        }
-      ],
-      "paymentSchedules":
-      [
-        {
-          "fromDate": "20150101",
-          "thruDate": "20151231",
-          "paymentEvents":
-          [
-            {
-              "milestone": "Screening Visit",
-              "amount": "100.00"
-            },
-            {
-              "milestone": "Randomization",
-              "amount": "60.00"
-            },
-            {
-              "milestone": "Week0",
-              "amount": "50.00"
-            },
-            {
-              "milestone": "Week4",
-              "amount": "60.00"
-            },
-            {
-              "milestone": "Week8",
-              "amount": "60.00"
-            },
-            {
-              "milestone": "Week12",
-              "amount": "60.00"
-            },
-            {
-              "milestone": "Week16",
-              "amount": "60.00"
-            },
-            {
-              "milestone": "Week20",
-              "amount": "60.00"
-            },
-            {
-              "milestone": "Week24",
-              "amount": "60.00"
-            },
-            {
-              "milestone": "Week28",
-              "amount": "60.00"
-            },
-            {
-              "milestone": "Week32",
-              "amount": "60.00"
-            },
-            {
-              "milestone": "Week36",
-              "amount": "60.00"
-            },
-            {
-              "milestone": "Week40",
-              "amount": "60.00"
-            },
-            {
-              "milestone": "Week44",
-              "amount": "60.00"
-            },
-            {
-              "milestone": "Week48",
-              "amount": "60.00"
-            },
-            {
-              "milestone": "Week52",
-              "amount": "60.00"
-            },
-            {
-              "milestone": "Monitor Visit",
-              "amount": "45.00"
-	    },
-            {
-              "milestone": "Termination Visit",
-              "amount": "100.00"
-            }
-          ]
-        }],
+          }
+        ],
+        "paymentSchedules":
+        [
+          {
+            "fromDate": "20150101",
+            "thruDate": "20151231",
+            "paymentEvents":
+            [
+              {
+                "milestone": "Screening Visit",
+                "amount": "100.00"
+              },
+              {
+                "milestone": "Randomization",
+                "amount": "60.00"
+              },
+              {
+                "milestone": "Week0",
+                "amount": "50.00"
+              },
+              {
+                "milestone": "Week4",
+                "amount": "60.00"
+              },
+              {
+                "milestone": "Week8",
+                "amount": "60.00"
+              },
+              {
+                "milestone": "Week12",
+                "amount": "60.00"
+              },
+              {
+                "milestone": "Week16",
+                "amount": "60.00"
+              },
+              {
+                "milestone": "Week20",
+                "amount": "60.00"
+              },
+              {
+                "milestone": "Week24",
+                "amount": "60.00"
+              },
+              {
+                "milestone": "Week28",
+                "amount": "60.00"
+              },
+              {
+                "milestone": "Week32",
+                "amount": "60.00"
+              },
+              {
+                "milestone": "Week36",
+                "amount": "60.00"
+              },
+              {
+                "milestone": "Week40",
+                "amount": "60.00"
+              },
+              {
+                "milestone": "Week44",
+                "amount": "60.00"
+              },
+              {
+                "milestone": "Week48",
+                "amount": "60.00"
+              },
+              {
+                "milestone": "Week52",
+                "amount": "60.00"
+              },
+              {
+                "milestone": "Monitor Visit",
+                "amount": "45.00"
+              },
+              {
+                "milestone": "Termination Visit",
+                "amount": "100.00"
+              }
+            ]
+          }],
         "subjects":
         [
           {
@@ -127,4 +129,5 @@
           }
         ]
       }]
+  }
 }
