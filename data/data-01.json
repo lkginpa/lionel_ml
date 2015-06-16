@@ -10,6 +10,7 @@
     "country": "USA",
     "postalCode": "19020",
     "active": true,
+    "clientType": "sponsor",
     "studies":
     [
       {
@@ -17,8 +18,34 @@
         "protocol": "GammaGen211",
         "active": true,
         "phase": 2,
-        "startDate": "20140101",
-        "endDate": "",
+        "therapeuticArea": "endocrinology",
+        "activationDate": "20140101",
+        "completionDate": "",
+        "cro": "",
+        "clinicalTrialsGovID": "123456",
+        "contacts":
+        {
+            "studyCoordinator":
+            {
+                "name": "John Smith",
+                "email": "jsmith@example.com"
+            },
+            "itCoordinator":
+            {
+                "name": "Jim Jones",
+                "email": "jjones@example.com"
+            },
+            "interalStudyManager":
+            {
+                "name": "Jill Smith",
+                "email": "jillsmith@example.com"
+            }
+        },
+        "dataSources":
+        [
+          "manual",
+          "EDC"
+        ],
         "researchSites":
         [
           {
